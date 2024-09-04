@@ -13,7 +13,7 @@ def help():
 
 @main.route('/req')
 def req():
-    url = 'https://100.20.92.101/'
+    url = 'https://flasktest-lchz.onrender.com/help'
 
     try:
         page = requests.get(url)
