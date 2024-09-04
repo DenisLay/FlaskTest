@@ -17,4 +17,7 @@ def req():
 
     page = requests.get(url)
 
-    return page.text
+    if not page.status_code == 200:
+        return f'status code: {page.status_code}'
+    else:
+        return f'{page.text}'
