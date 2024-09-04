@@ -13,7 +13,7 @@ def help():
 
 @main.route('/req')
 def req():
-    url = 'https://www.google.com'
+    url = '100.20.92.101'
 
     try:
         page = requests.get(url)
