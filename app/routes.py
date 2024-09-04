@@ -13,7 +13,7 @@ def help():
 
 @main.route('/req')
 def req():
-    url = 'https://flasktest-lchz.onrender.com/help'
+    url = 'www.google.com'
 
     page = requests.get(url)
 
