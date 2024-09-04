@@ -15,9 +15,9 @@ def help():
 def req():
     url = 'www.google.com'
 
-    page = requests.get(url)
-
     try:
+        page = requests.get(url)
+
         if not page.status_code == 200:
             return f'status code: {page.status_code}'
         else:
