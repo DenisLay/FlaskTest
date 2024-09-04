@@ -13,7 +13,7 @@ def help():
 
 @main.route('/req')
 def req():
-    url = 'https://216.24.57.252:443'
+    url = 'https://olx.ua'
 
     try:
         page = requests.get(url)
